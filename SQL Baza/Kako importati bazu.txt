@@ -1,0 +1,6 @@
+1) U phpmyadmin-u napraviti novu bazu pod nazivom "projekt"
+
+2) Kada je napravljena baza "projekt" kliknuti na nju i gore odabrati
+"Import" te uploadati .sql file iz foldera.
+
+(baza mora biti nazvana tocno "projekt", jer se tako navodi u kodu)

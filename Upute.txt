@@ -1,0 +1,22 @@
+Stranica se pokreæe pomoæu XAMPP-a.
+
+Bazu je potrebno importati iz foldera "SQL Baza":
+1) U phpmyadmin-u napraviti novu bazu pod nazivom "projekt"
+
+2) Kada je napravljena baza "projekt" kliknuti na nju i gore odabrati
+"Import" te uploadati .sql file iz foldera.
+(baza mora biti nazvana tocno "projekt", jer se tako navodi u kodu)
+
+
+U bazi se nalazi jedan korisnik koji veæ ima razinu administratora:
+korisnicko ime: pjurakic
+lozinka: admin123
+
+Ali moguæe je registrirati preko stranice nove korisnike, te im promijeniti
+razinu dozvole u bazi sa 0 na 1 (za administratora).
+
+Na stranici se nalazi nekoliko veæ unesenih vijesti.
+Pri unosu novih vijesti ako se koriste apostrofi potrebno ih je pisati sa
+backslashom (\'), jer mysql ne prihvaæa same apostrofe.
+
+
